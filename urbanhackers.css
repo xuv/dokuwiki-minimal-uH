@@ -1,3 +1,17 @@
 /* Customisation for the urbanhackers.org website */
 
-.footnotes { font-size: 0.9em; color: #666; border-top: solid 1px #ccc; padding-top: 1em; }
+.footnotes { 
+	font-size: 0.9em;
+	color: #666;
+	border-top: solid 1px #ccc;
+	padding-top: 1em;
+}
+
+.h6e-simple-footer, .h6e-simple-footer a  {
+	font-size: 0.9em;
+	color: grey;
+}
+
+.pageinfo {
+	font-size: 0.9em; 
+}
