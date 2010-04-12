@@ -7,6 +7,10 @@
 	padding-top: 1em;
 }
 
+.h6e-simple-footer {
+	clear: both;
+}
+
 .h6e-simple-footer, .h6e-simple-footer a  {
 	font-size: 0.9em;
 	color: grey;
