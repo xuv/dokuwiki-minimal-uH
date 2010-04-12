@@ -55,10 +55,8 @@ if (empty($_REQUEST['do']) || in_array($_REQUEST['do'], array('revisions', 'show
 
   <div class="<?php echo $page_type ?> h6e-main-content">
 
-    <h1 class="h6e-page-title">
-    <?php tpl_link(wl(),'<img src="' . H6E_CSS . '/uH_logo.png" alt="uH logo"/>')?>
-    
-    <?php tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[ALT+H]"') ?>
+    <h1 class="h6e-page-title">    
+    <?php tpl_link(wl(),'<img src="' . H6E_CSS . '/uH_logo.png" alt="uH logo"/> ' . $conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[ALT+H]"') ?>
     </h1>
 
     <?php if (!tpl_getConf('hide-entry-title')){?>
