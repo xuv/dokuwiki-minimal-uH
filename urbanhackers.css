@@ -19,3 +19,8 @@
 .pageinfo {
 	font-size: 0.9em; 
 }
+
+#uH-logo {
+  float: left;
+  margin: -10px 10px 0 -3px;
+}
